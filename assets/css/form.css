@@ -1,0 +1,30 @@
+#blog-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#blog-form input,
+#blog-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#blog-form textarea {
+    height: 200px;
+}
+
+#blog-form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#blog-form button:hover {
+    background-color: #555;
+}
